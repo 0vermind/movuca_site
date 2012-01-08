@@ -38,6 +38,7 @@ def download():
     allows downloading of uploaded files
     http://..../[app]/default/download/[filename]
     """
+    redirect(URL('demo','default','download',args=request.args, vars=request.vars))
     return response.download(request,db)
 
 
