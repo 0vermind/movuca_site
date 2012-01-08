@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Movuca, The Social CMS | Create your own social network!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="{{=URL('static','index_files/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{=URL('static','index_files/docs.css')}}" rel="stylesheet">
+    <link href="{{=URL('static','index_files/prettify.css')}}" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="{{=URL('static','index_files/favicon.ico')}}">
+  </head>
+
+  <body data-rendering="true">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed" data-scrollspy="scrollspy">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="http://movu.ca">Movuca The Social CMS</a>
+          <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="http://movu.ca/demo" target="_blank">Demo</a></li>
+            <li><a href="http://github.com/rochacbruno/Movuca" target="_blank">Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id="overview">
+
+        <!-- Masthead
+        ================================================== -->
+        <header class="jumbotron masthead">
+          <div class="inner">
+            <img src="{{=URL('static','index_files/logo.png')}}" width=300 />
+            <br /><br />
+            <p class="lead">Movuca is a social network and CMS platform. Movuca is open source, flexible, easy to customize, deploy and use.</p>
+            <p class="download-info">
+              <a href="https://github.com/rochacbruno/movuca/" class="btn  btn-large">Download on GitHub</a>
+              <a href="http://movu.ca/demo" class="btn primary btn-large"> Demo →</a>
+              Currently v0.0.1 (alpha)
+            </p>
+
+            <div class="benefits">
+              <h4>Feature highlights</h4>
+              <ul>
+                <li><span>×</span> Built on Python and web2py</li>
+                <li><span>×</span> Complete docs</li>
+                <li><span>×</span> Multiple content types</li>
+                <li><span>×</span> Fast and scalable</li>
+                <li><span>×</span> Custom plugins and modules</li>
+                <li><span>×</span> Easy to design themes</li>
+                <li><span>×</span> Dozens of components</li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <ul class="quick-links">
+          <li><strong>Quick links</strong></li>
+          <li><a href="https://github.com/rochacbruno/movuca">GitHub</a></li>
+          <li><a href="https://github.com/rochacbruno/movuca/issues?state=open">Issues</a></li>
+          <li><a href="https://github.com/rochacbruno/movuca/Roadmap">Roadmap</a></li>
+          <li><a href="https://github.com/rochacbruno/movuca/Changelog">Changelog</a></li>
+          <li class="divider">·</li>
+
+          <li>
+            <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=rochacbruno&repo=Movuca&type=watch&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+          </li>
+
+          <li>
+            <iframe class="github-btn" src="http://markdotto.github.com/github-buttons/github-btn.html?user=rochacbruno&repo=Movuca&type=fork&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+          </li>
+
+          <li class="divider">·</li>
+          <li class="follow-btn">
+            <a href="https://twitter.com/movucacms" class="twitter-follow-button" data-width="145px" data-link-color="#0069D6" data-show-count="false">Follow @movucacms</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+          </li>
+
+          <li class="tweet-btn">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://movu.ca" data-count="horizontal" data-via="movucacms" data-related="movucacms:The Social CMS">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          </li>
+        </ul>
+
+
+        <div class="marketing">
+         
+
+          <h1>Create - Explore - Share</h1>
+          <div class="row">
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_042_group.png')}}">
+              <h2>Social impact</h2>
+              <p>Web-based social networking services make it possible to connect people who share interests and activities across political, economic, and geographic borders.</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_079_podium.png')}}">
+              <h2>Business Applications</h2>
+              <p>Connect people at low cost; this can be beneficial for entrepreneurs and small businesses looking to expand their contact bases. These networks often act as a customer relationship management tool for companies selling products and services.</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_163_iphone.png')}}">
+              <h2>Cross-everything</h2>
+              <p>Themes adaptated to be used in mobile - tablets and smartphones, too. (coming an Android & iPhone app for RSS feeds)</p>
+            </div>
+          </div><!--/row-->
+          <div class="row">
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_155_show_thumbnails.png')}}">
+              <h2>Multiple content types</h2>
+              <p>Content can be defined as nearly anything: documents, movies, text, pictures, phone numbers, scientific data, and so forth..</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_214_resize_small.png')}}">
+              <h2>Customizable</h2>
+              <p>Easy to customize, create new modules, define new content types and personalize the layout with a CSS/HTML Theme.</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_266_book_open.png')}}">
+              <h2>Documentation</h2>
+              <p>Fully documented API and a lot of examples on how to create your own content types.</p>
+            </div>
+          </div><!--/row-->
+          <div class="row">
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_082_roundabout.png')}}">
+              <h2>Active Development</h2>
+              <p>Derived from the work of web2py development team, the development of Movuca is very active and commited to security, compatibility and easy of use.</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/glyphicons_009_magic.png')}}">
+              <h2>Deploy like a magic</h2>
+              <p>Easy to deploy your own Social web site on any Python hosting service.</p>
+            </div>
+            <div class="span4">
+              <img class="icon" src="{{=URL('static','index_files/mongo_black.png')}}">
+              <h2>Scalable</h2>
+              <p>No problem if you go from 10 to thousand users. Movuca is prepared to scale using the best of tools like Mongo, PostGres, Nginx and Redis.</p>
+            </div>
+          </div><!--/row-->
+          <div class="row">
+            <div class="span3">
+              <img class="small-icon" src="{{=URL('static','index_files/python_black.png')}}">
+              <h3>Python</h3>
+              <p>Powered by the best programming language...</p>
+            </div>
+            <div class="span3">
+              <img class="small-icon" src="{{=URL('static','index_files/web2py_black.png')}}">
+              <h3>web2py</h3>
+              <p>... on top of the best web development MVC framework.</p>
+            </div>
+            <div class="span3">
+              <img class="small-icon" src="{{=URL('static','index_files/icon-github.png')}}">
+              <h3>Open-source</h3>
+              <p>Built for and maintained by the community via <a href="https://github.com/rochacbruno/Movuca">Our GitHub (join us)</a>.</p>
+            </div>
+            <div class="span3">
+              <img class="small-icon" src="{{=URL('static','index_files/icon-blouweb.png')}}">
+              <h3>Made at Blouweb</h3>
+              <p>Brought to you by an experienced <a href="http://twitter.com/blouweb">web development team</a>.</p>
+            </div>
+          </div><!--/row-->
+
+
+          <h1>Give it a try!</h1>
+          <ul class="media-grid example-sites">
+             <li style="text-align:center;">
+              <a href="http://movu.ca/demo" target="_blank">
+                <img src="{{=URL('static','index_files/home.png')}}" alt="Home">
+                <span>Index page with social modules</span>
+              </a>
+            </li>
+             <li style="text-align:center;">
+              <a href="http://movu.ca/demo" target="_blank">
+                <img src="{{=URL('static','index_files/create.png')}}" alt="Create">
+                <span>Rich text editor and media gallery</span>
+              </a>
+            </li>
+            <li style="text-align:center;">
+              <a href="http://movu.ca/demo" target="_blank">
+                <img src="{{=URL('static','index_files/profile.png')}}" alt="Profile">
+                <span>User profiles</span>
+              </a>
+            </li>
+          </ul>
+
+
+
+        </div>
+
+      </div><!-- /#overview -->
+
+
+      <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>This dite is designed using Twitter bootstrap <a href="http://twitter.com/twitter" target="_blank">@twitter</a></p>
+        <!-- p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p -->
+        <p>Icons from <a href="http://glyphicons.com/">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      </footer>
+    </div><!-- /container -->
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/jquery-1.js"></script>
+
+    <script type="text/javascript">
+      // When ready...
+      window.addEventListener("load",function() {
+        // Set a timeout...
+        setTimeout(function(){
+          // Hide the address bar!
+          window.scrollTo(0, 1);
+        }, 0);
+      });
+
+      // NOT FINAL BY ANY MEANS, JUST MAH JANK CODE BRO
+      $(document).ready(function() {
+        $('.nav .active').click(function(e) {
+          e.preventDefault();
+          $(this).siblings().toggle();
+        });
+      });
+    </script>
+
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/jquery.js"></script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/prettify.js"></script>
+    <script>$(function () { prettyPrint() })</script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-transitions.js"></script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-dropdown.js"></script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-twipsy.js"></script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-scrollspy.js"></script>
+    <script src="{{=URL('static','index_files/prettify.css')}}index_files/application.js"></script>
+
+  
+
+</body></html>
