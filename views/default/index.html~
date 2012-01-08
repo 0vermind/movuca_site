@@ -220,7 +220,7 @@
 
     <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/jquery-1.js"></script>
+    <script src="{{=URL('static','index_files/jquery-1.js')}}"></script>
 
     <script type="text/javascript">
       // When ready...
@@ -241,14 +241,14 @@
       });
     </script>
 
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/jquery.js"></script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/prettify.js"></script>
+    <script src="{{=URL('static','index_files/jquery.js')}}"></script>
+    <script src="{{=URL('static','index_files/prettify.js')}}"></script>
     <script>$(function () { prettyPrint() })</script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-transitions.js"></script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-dropdown.js"></script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-twipsy.js"></script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/bootstrap-scrollspy.js"></script>
-    <script src="{{=URL('static','index_files/prettify.css')}}index_files/application.js"></script>
+    <script src="{{=URL('static','index_files/bootstrap-transitions.js')}}"></script>
+    <script src="{{=URL('static','index_files/bootstrap-dropdown.js')}}"></script>
+    <script src="{{=URL('static','index_files/bootstrap-twipsy.js')}}"></script>
+    <script src="{{=URL('static','index_files/bootstrap-scrollspy.js')}}"></script>
+    <script src="{{=URL('static','index_files/application.js')}}"></script>
 
   
 
